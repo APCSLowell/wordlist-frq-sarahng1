@@ -21,15 +21,14 @@ public class WordList
 
   public void removeWordsOfLength(int len)
   {
-      //ArrayList <String> arr = new ArrayList <String> ();
-    for ( int i = 0; i < myList.size(); i++) {
-      if (myList. get (i).length() == len) {
+      
+    int i = 0;
+    while ( i < myList.size()) {
+      if ( myList.get (i).length() == len) {
         myList.remove(i);
-        
       } else {
-        i++
+        i++;
       }
-    }
     
   }
 }
